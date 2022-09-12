@@ -1,0 +1,24 @@
+/*
+	vars
+*/
+
+$fonts: '../fonts/';
+$images: '../images/';
+
+$defFonts: 'Noto Sans JP', Hiragino Sans, "ヒラギノ角ゴシック", Hiragino Kaku Gothic ProN, "ヒラギノ角ゴ ProN W3", Roboto, "Droid Sans",
+YuGothic, "游ゴシック", Meiryo, "メイリオ", Verdana, "ＭＳ Ｐゴシック", sans-serif;
+
+$breakpoints: (
+	xs: 375px,
+	sm: 768px,
+	md: 1024px,
+	lg: 1440px,
+	xl: 1920px,
+);
+
+$color-1: #000000;
+$color-2: #ffffff;
+
+$container-width: 1140px;
+$container-offset: 15px;
+

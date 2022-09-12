@@ -1,0 +1,23 @@
+.heading,
+.text {
+	display: block;
+	font-style: normal;
+}
+
+.heading {
+	&-1 {
+		@extend .heading;
+		font-size: 36px;
+		line-height: 40px;
+		font-weight: 500;
+	}
+}
+
+.text {
+	&-1 {
+		@extend .text;
+		font-size: 18px;
+		line-height: 32px;
+		font-weight: 400;
+	}
+}
