@@ -8,6 +8,7 @@ $images: '../images/';
 $defFonts: 'Noto Sans JP', Hiragino Sans, "ヒラギノ角ゴシック", Hiragino Kaku Gothic ProN, "ヒラギノ角ゴ ProN W3", Roboto, "Droid Sans",
 YuGothic, "游ゴシック", Meiryo, "メイリオ", Verdana, "ＭＳ Ｐゴシック", sans-serif;
 
+
 $breakpoints: (
 	xs: 375px,
 	sm: 768px,
@@ -16,9 +17,12 @@ $breakpoints: (
 	xl: 1920px,
 );
 
-$color-1: #000000;
-$color-2: #ffffff;
+$color-1: #4D4D4D;
+$color-2: #555555;
+$color-3: #707070;
+$color-4: #ffffff;
+$color-5: #FF7A59;
 
-$container-width: 1140px;
+$container-width: 1260px;
 $container-offset: 15px;
 

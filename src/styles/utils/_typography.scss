@@ -1,23 +1,43 @@
 .heading,
 .text {
-	display: block;
-	font-style: normal;
+  display: block;
+  font-style: normal;
 }
 
 .heading {
-	&-1 {
-		@extend .heading;
-		font-size: 36px;
-		line-height: 40px;
-		font-weight: 500;
-	}
+  &-1 {
+    @extend .heading;
+    font-family: 'OoohBaby';
+    font-size: 91px;
+    line-height: 91px;
+
+    @include media('<md') {
+      font-size: 52px;
+      line-height: 41px;
+    }
+  }
+
+
+  &-2 {
+    @extend .heading;
+    font-family: 'Hiragino Kaku Gothic ProN';
+    font-size: 20px;
+    line-height: 29px;
+
+    @include media('<md') {
+      font-size: 15px;
+      line-height: 32px;
+    }
+  }
+
 }
 
+
 .text {
-	&-1 {
-		@extend .text;
-		font-size: 18px;
-		line-height: 32px;
-		font-weight: 400;
-	}
+  &-1 {
+    @extend .text;
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 400;
+  }
 }
